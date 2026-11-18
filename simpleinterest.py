@@ -1,5 +1,5 @@
 import sys
-def simple_intrest(principal, intrest, time):
+def simple_interest(principal, intrest, time):
     return (principal * intrest * time) / 100
 
 if __name__ == "__main__":
@@ -7,4 +7,4 @@ if __name__ == "__main__":
     i = float(sys.argv[2])
     t = int(sys.argv[3])
 
-    print("Simple interest is:", simple_intrest(p, i, t))
+    print("Simple interest is:", simple_interest(p, i, t))
